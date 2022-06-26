@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: io.insert-koin:koin-android:2.1.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b3c0b4391d8bf023ecd905cfea9c7f1e/transformed/jetified-koin-android-2.1.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1b4d36ac6967fd420a708d4299c2cd64/transformed/jetified-koin-android-2.1.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1b4d36ac6967fd420a708d4299c2cd64/transformed/jetified-koin-android-2.1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1b4d36ac6967fd420a708d4299c2cd64/transformed/jetified-koin-android-2.1.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-android/2.1.6/e72def66c9245a4f2402e3b3925da230635b4972/koin-android-2.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-android/2.1.6/e009feaad953b99c497fdd92c1aa11ad6f9723bf/koin-android-2.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

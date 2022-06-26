@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="pantallaDeBienvenidaVM" type="com.application.app.modules.pantalladebienvenida.data.viewmodel.PantallaDeBienvenidaVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup84"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <FrameLayout android:id="@+id/frameGroup86"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700_4ccornerRadius">
+            <FrameLayout android:id="@+id/frameButton"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_234pxh"
+                android:layout_marginStart="@dimen/_44pxh"
+                android:layout_marginTop="@dimen/_774pxv"
+                android:layout_width="wrap_content" style="@style/groupStylebluegray_900cornerRadius">
+                <TextView android:gravity="center"
+                    android:id="@+id/txtCREARCUENTA"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{pantallaDeBienvenidaVM.pantallaDeBienvenidaModel.txtCREARCUENTA}"
+                    style="@style/txtRobotomedium14" tools:text="@string/lbl_crear_cuenta"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameButton1"
+                android:layout_gravity="bottom|end"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_43pxh"
+                android:layout_marginStart="@dimen/_234pxh"
+                android:layout_marginTop="@dimen/_774pxv"
+                android:layout_width="wrap_content" style="@style/groupStylelime_1">
+                <TextView android:gravity="center"
+                    android:id="@+id/txtINICIARSESION"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{pantallaDeBienvenidaVM.pantallaDeBienvenidaModel.txtINICIARSESION}"
+                    style="@style/txtRobotomedium14" tools:text="@string/lbl_iniciar_sesion"/>
+            </FrameLayout>
+            <View
+                android:background="@drawable/rectangle_bg_white_a700_4c_radius_278_955"
+                android:id="@+id/viewEllipse2"
+                android:layout_height="@dimen/_557pxh"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginEnd="@dimen/_114pxh"
+                android:layout_marginTop="@dimen/_245pxv" android:layout_width="@dimen/_313pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_white_a700_4c_radius_168_955"
+                android:id="@+id/viewEllipse3"
+                android:layout_height="@dimen/_337pxv"
+                android:layout_marginBottom="@dimen/_476pxv"
+                android:layout_marginStart="@dimen/_68pxh" android:layout_width="@dimen/_360pxh"/>
+            <LinearLayout android:id="@+id/linearGroup87"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_780pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylelime_700">
+                <FrameLayout android:id="@+id/frameGroup88"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_9pxv"
+                    android:layout_marginEnd="@dimen/_29pxh"
+                    android:layout_marginStart="@dimen/_29pxh"
+                    android:layout_marginTop="@dimen/_8pxv" android:layout_width="match_parent">
+
+                    <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                        android:id="@+id/indicatorGroup30"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="wrap_content"
+                        app:drawable_normal="@drawable/indicator_selected_bg_white_a700_radius_8"
+                        app:drawable_selected="@drawable/indicator_selected_bg_white_a700_radius_8" app:indicator_size="@dimen/_14pxh"/>
+                    <ImageView android:id="@+id/imageSi3"
+                        android:layout_height="@dimen/_16pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginEnd="@dimen/_46pxh"
+                        android:layout_marginStart="@dimen/_306pxh"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_si3"/>
+                </FrameLayout>
+            </LinearLayout>
+            <TextView android:gravity="top|center"
+                android:id="@+id/txtSuperDeli"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_451pxv"
+                android:layout_marginEnd="@dimen/_133pxh"
+                android:layout_marginStart="@dimen/_134pxh"
+                android:layout_marginTop="@dimen/_263pxv"
+                android:layout_width="wrap_content"
+                android:text="@{pantallaDeBienvenidaVM.pantallaDeBienvenidaModel.txtSuperDeli}"
+                style="@style/txtShrikhandregular50" tools:text="@string/lbl_super_deli"/>
+            <ImageView android:id="@+id/imageShoppingbasket"
+                android:layout_height="@dimen/_120pxh"
+                android:layout_marginBottom="@dimen/_331pxv"
+                android:layout_marginEnd="@dimen/_155pxh"
+                android:layout_marginStart="@dimen/_153pxh"
+                android:layout_marginTop="@dimen/_363pxv"
+                android:layout_width="@dimen/_120pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_shoppingbasket_1"/>
+        </FrameLayout>
+        <View
+            android:background="@drawable/rectangle_bg_bluegray_900_radius_100"
+            android:id="@+id/viewSi1"
+            android:layout_height="@dimen/_6pxv"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_186pxh"
+            android:layout_marginStart="@dimen/_187pxh"
+            android:layout_marginTop="@dimen/_98pxv" android:layout_width="@dimen/_54pxh"/>
+    </LinearLayout>
+</layout>

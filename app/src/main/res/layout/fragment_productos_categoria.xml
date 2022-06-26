@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="productosCategoriaVM" type="com.application.app.modules.productoscategoria.data.viewmodel.ProductosCategoriaVM"/>
+    </data>
+    <androidx.core.widget.NestedScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearGroup92"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/_22pxh" android:paddingStart="@dimen/_34pxh">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerProductosCategoria"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                itemSpace="@{@dimen/_20pxh}" tools:itemCount="4" tools:listitem="@layout/row_productos_categoria1"/>
+            <View
+                android:background="@drawable/rectangle_bg_bluegray_900_radius_100"
+                android:id="@+id/viewSi1"
+                android:layout_height="@dimen/_6pxv"
+                android:layout_marginEnd="@dimen/_164pxh"
+                android:layout_marginStart="@dimen/_153pxh"
+                android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_54pxh"/>
+            <HorizontalScrollView android:fillViewport="true"
+                android:id="@+id/horizontalScrollGroup120"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="match_parent" android:scrollbars="none">
+                <FrameLayout android:id="@+id/frameGroup117"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content" android:layout_width="wrap_content">
+                    <TextView android:gravity="top|start"
+                        android:id="@+id/txtGoldKg1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginEnd="@dimen/_172pxh"
+                        android:layout_marginStart="@dimen/_186pxh"
+                        android:layout_marginTop="@dimen/_98pxv"
+                        android:layout_width="wrap_content"
+                        android:text="@{productosCategoriaVM.productosCategoriaModel.txtGoldKg1}"
+                        style="@style/txtSFCompactregular16" tools:text="@string/lbl_gold_kg_1"/>
+                    <LinearLayout android:id="@+id/linearGroup116"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <FrameLayout android:id="@+id/frameGroup115"
+                            android:layout_gravity="top"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5" android:layout_width="0dp">
+                            <LinearLayout
+                                android:id="@+id/linearGroup114"
+                                android:layout_gravity="top|start"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <FrameLayout
+                                    android:id="@+id/frameGroup113"
+                                    android:layout_gravity="top"
+                                    android:layout_height="@dimen/_168pxh" android:layout_width="@dimen/_170pxh">
+                                    <ImageView
+                                    android:id="@+id/imageImage20"
+                                    android:layout_height="@dimen/_150pxh"
+                                    android:layout_marginStart="@dimen/_20pxh"
+                                    android:layout_marginTop="@dimen/_18pxv"
+                                    android:layout_width="@dimen/_150pxh"
+                                    android:scaleType="fitXY"
+                                    imageRes="@{@drawable/img_image20}" tools:src="@drawable/img_image20"/>
+                                    <ImageView
+                                    android:id="@+id/imageGroup260"
+                                    android:layout_height="@dimen/_36pxh"
+                                    android:layout_marginBottom="@dimen/_132pxv"
+                                    android:layout_marginEnd="@dimen/_134pxh"
+                                    android:layout_width="@dimen/_36pxh"
+                                    android:scaleType="fitXY" android:src="@drawable/img_group260_2"/>
+                                </FrameLayout>
+                                <TextView android:gravity="top|start"
+                                    android:id="@+id/txtManzanas"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_122pxv"
+                                    android:layout_marginStart="@dimen/_16pxh"
+                                    android:layout_marginTop="@dimen/_18pxv"
+                                    android:layout_weight="0.8"
+                                    android:layout_width="0dp"
+                                    android:text="@{productosCategoriaVM.productosCategoriaModel.txtManzanas}"
+                                    style="@style/txtSFCompactregular22" tools:text="@string/lbl_manzanas"/>
+                            </LinearLayout>
+                            <TextView android:gravity="top|start"
+                                android:id="@+id/txt198"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_78pxv"
+                                android:layout_marginEnd="@dimen/_51pxh"
+                                android:layout_marginStart="@dimen/_186pxh"
+                                android:layout_marginTop="@dimen/_62pxv"
+                                android:layout_width="wrap_content"
+                                android:text="@{productosCategoriaVM.productosCategoriaModel.txt198}"
+                                style="@style/txtSFCompactbold18" tools:text="@string/lbl_1_98"/>
+                        </FrameLayout>
+                        <ImageView android:id="@+id/imageShoppingbasket"
+                            android:layout_height="@dimen/_24pxh"
+                            android:layout_marginBottom="@dimen/_80pxv"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_64pxv"
+                            android:layout_width="@dimen/_24pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_shoppingbasket_2"/>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:gravity="center" android:id="@+id/btn"
+                        android:layout_height="@dimen/_32pxh"
+                        android:layout_marginEnd="@dimen/_75pxh"
+                        android:layout_marginStart="@dimen/_285pxh"
+                        android:layout_marginTop="@dimen/_136pxv"
+                        android:layout_width="@dimen/_32pxh"
+                        android:text="@string/lbl"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRoundedOutline" tools:text="@string/lbl"/>
+                    <FrameLayout android:id="@+id/frameRectangle16"
+                        android:layout_gravity="bottom|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_360pxh"
+                        android:layout_marginTop="@dimen/_136pxv"
+                        android:layout_width="wrap_content" style="@style/groupStylewhite_1">
+                        <View android:background="@color/bluegray_900"
+                            android:id="@+id/lineLine1"
+                            android:layout_height="@dimen/_3pxv"
+                            android:layout_marginBottom="@dimen/_11pxv"
+                            android:layout_marginEnd="@dimen/_7pxh"
+                            android:layout_marginStart="@dimen/_7pxh"
+                            android:layout_marginTop="@dimen/_18pxv" android:layout_width="@dimen/_18pxh"/>
+                    </FrameLayout>
+                    <TextView android:gravity="top|start"
+                        android:id="@+id/txt1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_2pxv"
+                        android:layout_marginEnd="@dimen/_48pxh"
+                        android:layout_marginStart="@dimen/_333pxh"
+                        android:layout_marginTop="@dimen/_138pxv"
+                        android:layout_width="wrap_content"
+                        android:text="@{productosCategoriaVM.productosCategoriaModel.txt1}"
+                        style="@style/txtSFCompactregular22" tools:text="@string/lbl_1"/>
+                </FrameLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

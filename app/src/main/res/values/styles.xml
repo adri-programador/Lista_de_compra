@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtSFCompactbold18" parent="txtSFCompactregular22">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtregular16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylelime_700">
+        <item name="android:background">@drawable/rectangle_bg_lime_700</item>
+    </style>
+    <style name="groupStylelime_700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_lime_700_radius_bl_24_br_24</item>
+    </style>
+    <style name="groupStylebluegray_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900_radius_100</item>
+    </style>
+    <style name="txtSFCompactmedium16_1" parent="txtSFCompactmedium16">
+        <item name="android:textColor">@color/bluegray_900</item>
+    </style>
+    <style name="groupStylewhite_A700_4ccornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_4c_radius_390_355</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_bluegray_900_radius_4</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_8</item>
+    </style>
+    <style name="txtSFCompactregular22" parent="txtSFCompactregular16">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:fontFamily">@font/sf_compact</item>
+    </style>
+    <style name="txtSFCompactmedium22" parent="txtSFCompactmedium16">
+        <item name="android:textSize">@dimen/_22pxh</item>
+    </style>
+    <style name="txtSFCompactregular16" parent="txtSFCompactmedium16">
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylelime_1">
+        <item name="android:background">@drawable/rectangle_bg_lime_700_radius_100</item>
+    </style>
+    <style name="txtShrikhandregular50">
+        <item name="android:textSize">@dimen/_50pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/shrikhand</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotomedium14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtregular20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_26pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/sf_compact</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_bluegray_900_radius_4</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="txtSFCompactmedium16" parent="txtRobotomedium14">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:fontFamily">@font/sf_compact</item>
+    </style>
+</resources>

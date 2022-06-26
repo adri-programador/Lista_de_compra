@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="categoriasVM" type="com.application.app.modules.categorias.data.viewmodel.CategoriasVM"/>
+    </data>
+    <androidx.core.widget.NestedScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearGroup46"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/_48pxh" android:paddingStart="@dimen/_48pxh">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerCategorias"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2" itemSpace="@{@dimen/_40pxh}"
+                tools:itemCount="8" tools:listitem="@layout/row_categorias1"/>
+            <FrameLayout android:id="@+id/frameGroup52"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24pxv" android:layout_width="match_parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerCategorias1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_40pxh}" tools:itemCount="2" tools:listitem="@layout/row_categorias2"/>
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_900_radius_100"
+                    android:id="@+id/viewSi1"
+                    android:layout_height="@dimen/_6pxv"
+                    android:layout_marginBottom="@dimen/_106pxv"
+                    android:layout_marginEnd="@dimen/_138pxh"
+                    android:layout_marginStart="@dimen/_147pxh"
+                    android:layout_marginTop="@dimen/_38pxv" android:layout_width="@dimen/_54pxh"/>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

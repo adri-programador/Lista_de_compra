@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="categorias1RowModel" type="com.application.app.modules.categorias.data.model.Categorias1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+        <ImageView android:id="@+id/imageImage12"
+            android:layout_height="@dimen/_106pxh"
+            android:layout_width="@dimen/_150pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image12}" tools:src="@drawable/img_image12"/>
+        <TextView android:gravity="top|center"
+            android:id="@+id/txtFruta"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_48pxh"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="wrap_content"
+            android:text="@{categorias1RowModel.txtFruta}"
+            style="@style/txtSFCompactregular22" tools:text="@string/lbl_fruta"/>
+    </LinearLayout>
+</layout>
